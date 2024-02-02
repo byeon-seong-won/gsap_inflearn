@@ -69,6 +69,7 @@
             }
         }
 
+        document.body.setAttribute('id', `show-scene-${currentScene}`)
 
 
     }
@@ -93,7 +94,7 @@
             }
             currentScene--;
         }
-        document.body.setAttribute('id', `show-scene-${currentScene}`)
+ 
     }
 
 
